@@ -33,42 +33,52 @@ The visual language is intentionally restrained: cobalt communicates action and 
 
 ## Product experience
 
-### 1. Begin with confidence
+### 1. Enter with confidence
 
-Authentication supports phone verification, Google and Apple entry points. Location permission explains the value of access before requesting it, rather than presenting an unexplained operating-system prompt.
+The journey starts with a focused sign-in screen: riders can continue with a mobile number or use the familiar Google and Apple entry points. Once signed in, SwiftRide explains how location access improves pickup accuracy, nearby-driver visibility and live arrival estimates before asking for permission.
 
 <p align="center">
-  <img src="docs/images/penpot-location-permission.png" width="34%" alt="SwiftRide location permission screen designed in Penpot" />
+  <img src="docs/images/penpot-phone-sign-in.png" width="34%" alt="SwiftRide phone, Google and Apple sign-in screen designed in Penpot" />
+  &nbsp;&nbsp;
+  <img src="docs/images/penpot-location-permission.png" width="34%" alt="SwiftRide explained location permission screen designed in Penpot" />
+</p>
+
+### 2. Plan without losing context
+
+The home view immediately establishes the rider's current location and nearby cars. Destination search stays on the map, so riders can type an address, review pickup and drop-off points, or choose directly from the map without losing spatial context.
+
+<p align="center">
+  <img src="docs/images/penpot-home-map.png" width="34%" alt="SwiftRide rider home map with nearby vehicles designed in Penpot" />
   &nbsp;&nbsp;
   <img src="docs/images/penpot-destination.png" width="34%" alt="SwiftRide map-first destination entry designed in Penpot" />
 </p>
 
-### 2. Plan without losing the map
+### 3. Compare once, then confirm
 
-Destination entry remains map-first. Riders can type an address or position a pin, review the route, compare vehicle classes and choose a payment method without moving through disconnected selection pages.
+After a destination is selected, route context and ride choices appear together. Riders can compare capacity, arrival time and fare, then review the selected ride, payment method, promo code and driver note before sending the request.
 
 <p align="center">
-  <img src="docs/images/penpot-choose-ride.png" width="34%" alt="SwiftRide inline vehicle selection designed in Penpot" />
+  <img src="docs/images/penpot-choose-ride.png" width="34%" alt="SwiftRide inline vehicle and fare comparison designed in Penpot" />
   &nbsp;&nbsp;
-  <img src="docs/images/penpot-confirm-booking.png" width="34%" alt="SwiftRide booking confirmation designed in Penpot" />
+  <img src="docs/images/penpot-confirm-booking.png" width="34%" alt="SwiftRide ride and payment confirmation designed in Penpot" />
 </p>
 
-### 3. Know who is coming
+### 4. Know who is coming
 
-Matching is expressed as a real product state—not a decorative loading screen. The flow includes active searching, no-driver recovery, a matched-driver identity card, vehicle and plate verification, approaching and arrived states, contact actions and a protected pickup code.
+A successful match is presented as a trust checkpoint. The rider sees Aina's profile, rating, completed-trip count, vehicle, licence plate and arrival estimate, with direct access to calling, messaging and safety tools before entering the car.
 
 <p align="center">
-  <img src="docs/images/penpot-driver-match.png" width="34%" alt="Aina driver profile and vehicle verification designed in Penpot" />
-  &nbsp;&nbsp;
-  <img src="docs/images/penpot-in-trip.png" width="34%" alt="SwiftRide active trip screen designed in Penpot" />
+  <img src="docs/images/penpot-driver-match.png" width="38%" alt="Aina's verified driver profile, vehicle and licence plate designed in Penpot" />
 </p>
 
-### 4. Close the journey properly
+### 5. Stay informed through arrival
 
-The active-trip experience keeps ETA, route progress, fare, sharing, driver contact and safety tools close at hand. Arrival closes the loop with payment confirmation, a receipt, driver rating, tipping and structured feedback.
+During the ride, the map and progress card keep the remaining time, destination, distance, fare and payment method visible. Sharing, safety, driver contact and route-issue reporting remain within one tap. Arrival then closes the journey with a receipt, rating, tip and quick feedback.
 
 <p align="center">
-  <img src="docs/images/penpot-arrived-review.png" width="38%" alt="SwiftRide arrival, rating and tipping screen designed in Penpot" />
+  <img src="docs/images/penpot-in-trip.png" width="34%" alt="SwiftRide active trip progress and safety actions designed in Penpot" />
+  &nbsp;&nbsp;
+  <img src="docs/images/penpot-arrived-review.png" width="34%" alt="SwiftRide arrival, receipt, rating and tipping screen designed in Penpot" />
 </p>
 
 ## Rider capabilities
